@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="100%" role="img" aria-label="Gue F15 banner - retro monitor with headphones, ECG and terminal">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#010409"/>
+    </linearGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="4" y2="0" stroke="#000000" stroke-opacity="0.10" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1000" height="300" fill="url(#bg)"/>
+
+  <!-- headphones band -->
+  <path d="M315 92 Q500 12 685 92" fill="none" stroke="#3b82f6" stroke-width="14" stroke-linecap="round"/>
+  <path d="M315 92 Q500 26 685 92" fill="none" stroke="#60a5fa" stroke-width="4" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- left ear cup -->
+  <rect x="288" y="86" width="52" height="70" rx="26" fill="#1f2937" stroke="#3b82f6" stroke-width="5"/>
+  <circle cx="314" cy="121" r="9" fill="#60a5fa" opacity="0.6"/>
+
+  <!-- right ear cup -->
+  <rect x="660" y="86" width="52" height="70" rx="26" fill="#1f2937" stroke="#3b82f6" stroke-width="5"/>
+  <circle cx="686" cy="121" r="9" fill="#60a5fa" opacity="0.6"/>
+
+  <!-- monitor -->
+  <rect x="260" y="95" width="480" height="180" rx="16" fill="#161b22" stroke="#30363d" stroke-width="4"/>
+
+  <!-- screen -->
+  <rect x="287" y="118" width="426" height="134" rx="8" fill="#06130b"/>
+
+  <!-- power led (green dot on bezel) -->
+  <circle cx="699" cy="106" r="4.5" fill="#4ade80">
+    <animate attributeName="opacity" values="1;0.15;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- terminal text -->
+  <text x="310" y="144" font-family="monospace" font-size="14" fill="#8b949e">&gt; whoami</text>
+  <text x="310" y="164" font-family="monospace" font-size="14" fill="#4ade80">gue.f15</text>
+
+  <!-- blinking cursor -->
+  <rect x="365" y="150" width="8" height="14" fill="#4ade80">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- nurse cross icon -->
+  <g stroke="#ef4444" stroke-width="6" stroke-linecap="round">
+    <line x1="414" y1="132" x2="414" y2="154"/>
+    <line x1="403" y1="143" x2="425" y2="143"/>
+  </g>
+
+  <!-- cyber shield icon -->
+  <path d="M470 118 h18 v14 c0 9 -9 13 -9 13 s -9 -4 -9 -13 z" fill="#22d3ee" opacity="0.9"/>
+  <rect x="476" y="135" width="6" height="9" rx="1" fill="#0d1117"/>
+
+  <!-- ECG heartbeat -->
+  <polyline points="300,222 352,222 360,222 367,172 374,222 381,222 388,252 395,222 420,222 545,222 553,222 560,172 567,222 574,222 581,252 588,222 700,222"
+            fill="none" stroke="#4ade80" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- scanlines overlay -->
+  <rect x="287" y="118" width="426" height="134" fill="url(#scan)"/>
+
+  <!-- stand -->
+  <rect x="468" y="278" width="64" height="16" rx="4" fill="#30363d"/>
+  <rect x="430" y="294" width="140" height="6" rx="3" fill="#30363d"/>
+</svg>

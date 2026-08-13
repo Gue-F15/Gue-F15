@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Gue%20F15&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=38" />
+<img alt="Gue F15 banner" src="banner.svg" width="100%" />
 
 <br/>
 
