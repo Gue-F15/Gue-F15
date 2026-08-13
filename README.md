@@ -16,11 +16,13 @@
 - 🛡️ **Hobby: Cybersecurity**
 - Interests: CTF, Digital Forensics (DFIR), Reverse Engineering, Penetration Testing.
 
-<br/>
+---
 
-<div align="center">
-  <img alt="FlagYard CTF stats" src="flagyard-stats.png" width="65%" />
-</div>
+## 🚩 Flags & CTF
+
+Competing on **FlagYard**:
+
+<img alt="FlagYard CTF stats" src="flagyard-stats.png" width="65%" />
 
 ---
 
