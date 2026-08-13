@@ -18,7 +18,7 @@
 
 ---
 
-## 🚩 Flags & CTF
+## 🚩 CTF
 
 Competing on **FlagYard**:
 
