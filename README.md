@@ -24,6 +24,8 @@ Competing on **FlagYard**:
 
 <img alt="FlagYard CTF stats" src="flagyard-stats.png" width="100%" />
 
+<img alt="FlagYard CTF stats 2" src="flagyard-stats2.png" width="100%" />
+
 ---
 
 ## 💻 Skills & Interests
