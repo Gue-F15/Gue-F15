@@ -22,7 +22,7 @@
 
 Competing on **FlagYard**:
 
-<img alt="FlagYard CTF stats" src="flagyard-stats.png" width="65%" />
+<img alt="FlagYard CTF stats" src="flagyard-stats.png" width="100%" />
 
 ---
 
