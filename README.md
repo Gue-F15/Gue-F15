@@ -20,7 +20,7 @@
 
 ## 🚩 CTF
 
-Competing on **FlagYard**:
+Competing on **FlagYard** — **Top 70** on the leaderboard:
 
 <img alt="FlagYard account" src="flagyard-account.png" width="100%" />
 
